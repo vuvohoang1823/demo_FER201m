@@ -1,0 +1,28 @@
+.App-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+}
+
+.List{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-bottom:.4rem;
+}
+
+.TextBox{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: fit-content;
+    padding: 2rem;
+}
+
+.List-text{
+}
+
