@@ -1,0 +1,188 @@
+.NavBar nav ul{
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.NavBar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar nav ul li a{
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.active {
+    margin-left: 2rem;
+    background-color: rgb(197, 197, 0);
+    padding: 1rem 2rem;
+}
+
+.contact{
+    margin-right: 10rem;
+}
+
+.player-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1.4rem;
+}
+
+.column img{
+    width: 100%;
+}
+
+.column {
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    width: 95%;
+}
+
+.card title{
+    margin: 0;
+}
+
+.card h3{
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.card p{
+    size: 100%;
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: rgb(171, 171, 171);
+}
+
+.card button{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    margin-bottom: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.footer{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(197, 197, 0);
+    color: white;
+    margin-top: 1rem;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    }
+    .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    }
+    .popup {
+    margin: 70px auto;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    }
+    .popup img{ width: 100%;}
+    .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+        }
+        .popup .close:hover {color: #06D85F;}
+        .popup .content {
+        max-height: 30%;
+        overflow: auto;
+        }
+
+        .head{
+            display: flex;
+            font-family: fantasy;
+        }
+
+        .badge{
+            background-color: red;
+            color: white;
+            height: fit-content;
+            padding: .5rem;
+            width: 9rem;
+            margin-right: 6rem;
+            margin-top: 2rem;
+        }
+
+        .product-tumb img{
+            width: 70%;
+        }
+
+        .container{
+            width: 60%;
+            background-color: rgb(223, 223, 223);
+            margin: 0 auto;
+            margin-top: 2rem;
+        }
+
+        .product-details{
+            background-color: white;
+            border-color: rgb(223, 223, 223);
+            border-width: .2rem;
+            border-style: solid;
+            padding: 2rem;
+        }
+
+        .product-details h4{
+            font-family: fantasy;
+            font-weight: lighter;
+        }
+
+        .product-price{
+            font-family: fantasy;
+            color: rgb(255, 200, 97);
+            font-weight: lighter;
+        }
+
+        .product-bottom-details{
+            font-family: fantasy;
+            color: rgb(200, 200, 200);
+            font-weight: lighter;
+        }
