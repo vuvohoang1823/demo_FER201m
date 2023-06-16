@@ -1,0 +1,85 @@
+.NavBar nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.NavBar nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
+
+.active {
+    margin-left: 2rem;
+    background-color: rgb(197, 197, 0);
+    padding: 1rem 2rem;
+}
+
+.contact{
+    margin-right: 10rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1.4rem;
+}
+
+.column img{
+    width: 100%;
+}
+
+.column {
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    width: 95%;
+}
+
+.card title{
+    margin: 0;
+}
+
+.card h3{
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.card p{
+    size: 100%;
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: rgb(171, 171, 171);
+}
+
+.card button{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    margin-bottom: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.footer{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(197, 197, 0);
+    color: white;
+    margin-top: 1rem;
+}
